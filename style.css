@@ -1,20 +1,12 @@
 
-
 main{
-    * {
-        outline: 4px dotted gray;
-      }
-      
-      main{
-        background: powderblue;
-        width:40em;
-      /* Fixed center */
-      /*   margin:0 auto; */
-        margin-inline:auto;
-      }
-      main img{
-        display: block;
-        width: 100%;
-      }
-
+  background: powderblue;
+  width:40em;
+/* Fixed center */
+/*   margin:0 auto; */
+  margin-inline:auto;
+}
+main img{
+  display: block;
+  width: 100%;
 }
