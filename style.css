@@ -7,9 +7,15 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Patrick+Hand&family=Sunflower:wght@300&display=swap');
 
+
 background: #70e1f5;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+/* background: #70e1f5;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to top, #ffd194, #70e1f5);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to top, #ffd194, #70e1f5); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
 
 
 /* Style Tile with css variables */
