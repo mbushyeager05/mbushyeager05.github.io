@@ -1,12 +1,131 @@
+/* 
+https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+*/
 
-main{
-  background: powderblue;
-  width:40em;
-/* Fixed center */
-/*   margin:0 auto; */
-  margin-inline:auto;
+/* Load Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+/* Diagnostic */
+* {
+  outline: 1px solid peachpuff;
 }
-main img{
-  display: block;
-  width: 100%;
+
+/* Style Tile with css variables */
+:root {
+  --color1: lightsalmon;
+  --font1: "Lora", serif;
+}
+
+/* wrapper */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  font-family: var(--font1);
+}
+
+article {
+
+  display: flex;
+  flex-direction: column;
+  /* main axis   */
+  justify-content: center;
+  /* cross axis   */
+  align-items: center;
+  
+  padding: 2em;
+
+
+  /*  background image */
+  background: #70e1f5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* on hover left colum, no background image
+article:hover {
+  background-image: none;
+} */
+ 
+h1,p {
+  animation-name: fadeInUpBig;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+ p{
+  animation-delay: 3s;
+}
+
+h1 {
+  color: var(--color1);
+  font-family: var(--font1);
+  font-size: 2.5em;
+  border:solid 4px #41403E;
+  padding: 8px 
+}
+
+
+/* Article */
+article {
+  display: flex;
+  flex-direction: column;
+  /* main axis   */
+  justify-content: center;
+  /* cross axis   */
+  align-items: center;
+  
+  padding: 1em;
+}
+
+
+  /* aside image */
+  aside img { 
+    width: 100%;
+    max-width: 100%;
+  
+    /* full height     */
+    height: 100vh;
+    object-fit: cover;
+  }
+
+/* Drop Cap */
+p span {
+  float: left; 
+  font-size: 5em;
+  color: var(--color1);
+}
+
+
+@media (max-width: 480px ) {
+  
+  body {
+    background: goldenrod;
+  }
+  
+  main {
+      grid-template-columns: 1fr;
+  }
+  
+  article nav a {
+    display: block;
+    margin: 1em 0 1em 0;
+  }
+  
+  p span {
+    float: none;
+    font-size: 1.5em;
+    
+  }
+  
 }
