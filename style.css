@@ -51,7 +51,7 @@ h1 {
   background-color:#485563;
   position: relative;
   right: 25%;
-  top:12%;
+  top:11%;
   
 }
 
@@ -75,7 +75,7 @@ h1 {
 nav {
   font-size:1.5em;
   position: relative;
-  bottom: 10%;
+  bottom: 20%;
   flex-grow: 1;
 }
 
