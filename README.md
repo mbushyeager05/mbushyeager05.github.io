@@ -1,6 +1,6 @@
 # Michael Bushyeager
 
-I work at the lego store in downtown Spokane. I have two dogs named Max and Ruby. I am a Visual Communictaion Design major.  
+I'm currently a sophomore at Eastern Washington University. I currently work at the lego store in downtown Spokane. I have two dogs named Max and Ruby. My major is Visual Communictaion Design.  
 
 ## Major 
-I am a Visual Communictaion Design major. 
+ Visual Communictaion Design 

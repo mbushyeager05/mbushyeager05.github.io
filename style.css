@@ -200,7 +200,7 @@ img {
 @media (max-width: 480px ) {
   
   body {
-    background: goldenrod;
+    background: rgb(189, 201, 206);
   }
   
   main {
