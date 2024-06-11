@@ -72,14 +72,55 @@ h1 {
   
   
 
+nav {
+  font-size:1.5em;
+  position: relative;
+  bottom: 10%;
+  flex-grow: 1;
+}
 
 
+  nav {
+    background: rgba(0, 0, 0, 0.11);
   
-  nav { 
-  font-family: var(--font2);
-  font-size:1wem;
-  
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
   }
+  
+  nav h1 {
+    flex-grow: 1;
+  /* margin-right: auto also works */
+  }
+  
+  nav a:link,
+  nav a:visited {
+    
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    margin: .5em;
+  }
+  
+  nav a:focus {
+    background: #ffc3a0;
+  }
+  
+  nav a:hover, 
+  nav a:active {
+    background: #ffc3a0;;
+  }
+  
+ 
+
+
+
+
+
+
+
+
+
   
   /* Article */
 article {
@@ -128,6 +169,24 @@ background: -webkit-linear-gradient(to top, #ffd194, #70e1f5);  /* Chrome 10-25,
 background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
+h1,p {
+  animation-name: fadeInUpBig;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+nav {
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+
+
 
 
 
@@ -154,5 +213,4 @@ background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Fir
   }
   
 }
-
 
