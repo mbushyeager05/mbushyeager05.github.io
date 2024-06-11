@@ -3,9 +3,10 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 */
 
 /* Load Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Patrick+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Patrick+Hand&family=Sunflower:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Londrina+Solid:wght@100;300;400;900&family=Patrick+Hand&family=Sunflower:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Londrina+Solid:wght@100;300;400;900&family=Patrick+Hand&family=Sunflower:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Kosugi+Maru&family=Londrina+Solid:wght@100;300;400;900&family=Patrick+Hand&family=Sunflower:wght@300&display=swap');
+
 
 
 background: #70e1f5;  /* fallback for old browsers */
@@ -19,11 +20,15 @@ background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Fir
 
 
 /* Style Tile with css variables */
+
 :root {
   --color1: #414345;
-  --font1: "Patrick Hand", cursive;
-  --font2: font-family: "Sunflower", sans-serif;
+  --color2: rgb(91, 114, 138);
+  --color3: #FEAC5E;
+  --font1: "Londrina Solid", sans-serif;
+  --font2: "Sunflower", sans-serif;
 }
+
 
 
 
@@ -38,36 +43,41 @@ article:hover {
 }
 
 h1 {
-  color: var(--color1);
-  font-family: var(--font1);
-  font-size: 2.5em;
+  color: #decba4;
+  font-family:"Concert One", sans-serif;
+  font-size: 3em;
   border:solid 4px #41403E;
   padding: 8px; 
-  background-color:rgba(119, 136, 153, 0.185);
-  display: flex;
-  flex-direction: column;
-  /* main axis   */
-  justify-content: center;
-  /* cross axis   */
-  align-items: center;
-  
+  background-color:#485563;
+  position: relative;
+  right: 25%;
+  top:12%;
   
 }
 
   
   p{ 
-  font-family: var(--font2);
-  font-size:.5em;
+    color: #decba4;
+  font-family:"Sunflower", sans-serif;;
+  font-size:1em;
   font-size: 1.5em;
   border:solid 4px #41403E;
   padding: 8px; 
-  background-color:rgba(119, 136, 153, 0.185);
+  background-color:#485563;
+  width: 50%;
+  position: relative;
+  left: 24%;
+  bottom: 25%;
   }
   
   
+
+
+
+  
   nav { 
   font-family: var(--font2);
-  font-size:1em;
+  font-size:1wem;
   
   }
   
@@ -95,7 +105,8 @@ article {
     /* full height     */
     height: 100vh;
     object-fit: cover;
-   
+    border:solid 8px #41403E;
+    
     
   }
 
@@ -115,7 +126,6 @@ article {
 background: #70e1f5;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 
 
 
@@ -144,3 +154,5 @@ background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Fir
   }
   
 }
+
+
