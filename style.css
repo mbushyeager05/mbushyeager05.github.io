@@ -67,7 +67,7 @@ h1 {
   padding: 8px; 
   background-color:var(--color5);
   position: relative;
-  right: 28%;
+  right: 32%;
   top:10.5%;
   
 }
@@ -192,7 +192,7 @@ h1,p {
 
 nav {
   animation-name: fadeInLeft;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
   animation-delay: 2s;
   animation-fill-mode: backwards;
