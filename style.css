@@ -37,6 +37,8 @@ background: linear-gradient(to top, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Fir
   --color1:#414345;
  --color2: rgb(91, 114, 138);
  --color3: #decba4;
+ --color4: #41403E;
+ --color5: #485563;
  --font1: "Londrina Solid", sans-serif;
   --font2: "Sunflower", sans-serif;
   --font3: "Concert One", sans-serif;
@@ -61,9 +63,9 @@ h1 {
   color: var(--color3);
   font-family:"Concert One", sans-serif;
   font-size: 3em;
-  border:solid 4px #41403E;
+  border:solid 4px var(--color4);
   padding: 8px; 
-  background-color:#485563;
+  background-color:var(--color5);
   position: relative;
   right: 28%;
   top:10.5%;
@@ -76,9 +78,9 @@ h1 {
   font-family:"Sunflower", sans-serif;;
   font-size:1em;
   font-size: 1.5em;
-  border:solid 4px #41403E;
+  border:solid 4px var(--color4);
   padding: 8px; 
-  background-color:#485563;
+  background-color:var(--color5);
   width: 50%;
   position: relative;
   left: 24%;
