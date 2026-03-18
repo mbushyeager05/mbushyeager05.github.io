@@ -124,7 +124,16 @@
     .word-row {
       display: block;
       overflow: visible;
-      padding: 0.06em 0;
+      padding: 0.015em 0;
+    }
+
+    .giant .word-row:first-child {
+      padding-top: 0.04em;
+    }
+
+    .giant .word-row:nth-child(2) {
+      padding-top: 0.045em;
+      padding-bottom: 0.045em;
     }
  
     .word-in {
