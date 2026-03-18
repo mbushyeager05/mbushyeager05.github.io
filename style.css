@@ -67,7 +67,7 @@
     /* HERO */
     .hero {
       display: grid;
-      grid-template-columns: 1fr 360px;
+      grid-template-columns: 1fr 460px;
       min-height: 100vh;
     }
  
@@ -123,7 +123,7 @@
  
     .word-row {
       display: block;
-      overflow: hidden;
+      overflow: visible;
       padding: 0.06em 0;
     }
  
@@ -279,7 +279,7 @@
 
     .page {
       display: grid;
-      grid-template-columns: 1fr 360px;
+      grid-template-columns: 1fr 460px;
       min-height: 100vh;
     }
 
@@ -303,7 +303,7 @@
       overflow: hidden;
     }
 
-    .title-row { display: block; overflow: hidden; }
+    .title-row { display: block; overflow: visible; }
     .title-word { display: inline-block; transform: translateY(110%); }
     .title-word.outline {
       -webkit-text-stroke: 3px var(--black);
